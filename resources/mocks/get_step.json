@@ -1,0 +1,33 @@
+{
+  "step_id": 1,
+  "group": "Contexto General",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuál es el género musical que quieres explorar para este proyecto?",
+      "type": "select",
+      "options": [
+        "Rock",
+        "Pop",
+        "Jazz",
+        "Metal",
+        "Otro"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Tienes alguna influencia o artista que quieras emular o que te inspire?",
+      "type": "text"
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es el tema o mensaje central de la canción?",
+      "type": "text"
+    },
+    {
+      "id": 4,
+      "question": "¿Hay alguna emoción en específico que quieras transmitir?",
+      "type": "text"
+    }
+  ]
+}

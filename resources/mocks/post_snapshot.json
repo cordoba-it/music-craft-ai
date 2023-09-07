@@ -1,0 +1,64 @@
+{
+  "snapshot_id": "123456",
+  "created_at": "2023-08-28T12:34:56Z",
+  "user_data": {
+    "genre": "Metal",
+    "instruments": [
+      "Guitarra",
+      "Piano"
+    ],
+    "reason": "Explorar mi creatividad y expresarme",
+    "goal": "Profesión",
+    "elements": [
+      "Letra",
+      "Melodía",
+      "Ritmo"
+    ],
+    "time_investment": 15,
+    "inspirations": [
+      "Metallica",
+      "Beethoven"
+    ],
+    "concept": "Lucha por la libertad y autodescubrimiento"
+  },
+  "template": {
+    "narrative": [
+      {
+        "title": "Esclavitud",
+        "entity": "El peso de la tecnología y las expectativas",
+        "musical_representation": "Riffs pesados, ritmo frenético",
+        "lyrics": "No me puedo concentraar, trabajo gratis para instagraam"
+      },
+      {
+        "title": "Espíritu",
+        "entity": "La chispa de la creatividad y la esencia propia",
+        "musical_representation": "Solos de guitarra, cambio a tonalidades mayores",
+        "lyrics": "Enciendo la chispa, recobro mi voz"
+      }
+    ],
+    "melody_data": {
+      "progression": "I-IV-V",
+      "key": "E minor",
+      "bpm": 120,
+      "technical_details": "Uso de palm muting en riffs, slides en solos"
+    },
+    "lyrics": [
+      "I'm searching for a way to express",
+      "The way I feel, it's like a mess",
+      "But I won't give up, I'll keep on trying",
+      "To find my voice, and stop denying"
+    ]
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Escoger la progresión de acordes",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "description": "Escribir el coro",
+      "status": "completed"
+    }
+  ]
+}
