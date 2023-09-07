@@ -1,0 +1,103 @@
+{
+  "steps": [
+    {
+      "step_id": 1,
+      "group": "Contexto General",
+      "questions": [
+        {
+          "id": 1,
+          "question": "¿Cuál es el género musical que quieres explorar para este proyecto?",
+          "type": "select",
+          "options": ["Rock", "Pop", "Jazz", "Metal", "Otro"]
+        },
+        {
+          "id": 2,
+          "question": "¿Tienes alguna influencia o artista que quieras emular o que te inspire?",
+          "type": "text"
+        },
+        {
+          "id": 3,
+          "question": "¿Cuál es el tema o mensaje central de la canción?",
+          "type": "text"
+        },
+        {
+          "id": 4,
+          "question": "¿Hay alguna emoción en específico que quieras transmitir?",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "step_id": 2,
+      "group": "Habilidades y Equipamiento",
+      "questions": [
+        {
+          "id": 5,
+          "type": "text",
+          "question": "¿Qué instrumentos tocas y cuáles piensas usar en la composición?",
+          "placeholder": "Ej. Guitarra, Piano, Batería"
+        },
+        {
+          "id": 6,
+          "type": "checkbox",
+          "question": "¿Tienes experiencia en teoría musical, mezcla y masterización?",
+          "placeholder": "Ej. Teoría Musical, Mezcla, Masterización"
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "question": "¿Qué equipos y software dispones para la creación musical?",
+          "placeholder": "Ej. Ableton, Guitarra Eléctrica, Micrófono"
+        }
+      ]
+    },
+    {
+      "step_id": 3,
+      "group": "Aspectos Creativos y Técnicos",
+      "questions": [
+        {
+          "id": 8,
+          "type": "radio",
+          "question": "¿Buscas que tu música tenga un estilo más lírico o más instrumental?",
+          "placeholder": "Ej. Lírico, Instrumental"
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "question": "¿Tienes alguna preferencia en cuanto a la estructura de la canción?",
+          "placeholder": "Ej. Estrofa, Coro, Puente"
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "question": "¿Cuál es tu nivel de conocimiento en teoría musical?",
+          "placeholder": "Ej. Principiante, Intermedio, Avanzado"
+        }
+      ]
+    },
+    {
+      "step_id": 4,
+      "group": "Barreras y Objetivos",
+      "questions": [
+        {
+          "id": 11,
+          "type": "text",
+          "question": "¿Cuál es tu principal obstáculo a la hora de componer música?",
+          "placeholder": "Ej. Falta de tiempo, Perfeccionismo"
+        },
+        {
+          "id": 12,
+          "type": "date",
+          "question": "¿Tienes un plazo específico para completar este proyecto?",
+          "placeholder": "Ej. 2023-09-15"
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "question": "¿Qué buscas lograr con esta canción?",
+          "placeholder": "Ej. Subirla a plataformas, Tocarla en vivo"
+        }
+      ]
+    }
+  ]
+}
