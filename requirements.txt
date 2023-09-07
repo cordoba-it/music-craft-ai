@@ -26,3 +26,4 @@ pretty-midi==0.2.10
 
 fastapi~=0.103.1
 pydantic~=2.3.0
+pymongo~=4.5.0
