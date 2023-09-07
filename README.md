@@ -77,6 +77,12 @@ If you don't have PyTorch installed, run the following command:
 pip install 'torch>=2.0'
 ```
 
+### Install PyMongo
+
+```shell
+pip install pymongo
+```
+
 ### Install AudioCraft
 
 To install the stable release of AudioCraft, run:
