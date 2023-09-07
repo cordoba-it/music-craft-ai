@@ -1,4 +1,5 @@
 # Music Craft AI
+A music tool for music composing (Work In Progress)
 
 ## Setup
 
@@ -9,14 +10,14 @@
 3. Navigate into the project directory:
 
    ```bash
-   $ cd music-craft-ai
+   cd music-craft-ai
    ```
 
 4. Create a new virtual environment:
 
    ```bash
-   $ python -m venv venv
-   $ . venv/bin/activate
+   python -m venv venv
+   . venv/bin/activate
    ```
 
 5. Set env vars `OPENAI_API_KEY=sk-your-openapi-key;PYTHONUNBUFFERED=1`
@@ -24,13 +25,13 @@
 6. Install the requirements:
 
    ```bash
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 7. Make a copy of the example environment variables file:
 
    ```bash
-   $ cp .env.example .env
+   cp .env.example .env
    ```
 
 8. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
@@ -39,15 +40,12 @@
 
    ```console
    pip install fastapi
-   ```
-
-   ```html
+   ``` 
+   
    <div class="termy">
        You will also need an ASGI server, for production such as <a href="https://www.uvicorn.org" class="external-link"
-                                                                    target="_blank">Uvicorn</a> or <a
-           href="https://github.com/pgjones/hypercorn" class="external-link" target="_blank">Hypercorn</a>.
+                                                                    target="_blank">Uvicorn</a> or <a href="https://github.com/pgjones/hypercorn" class="external-link" target="_blank">Hypercorn</a>.
    </div>
-   ```
 
    ```console
    pip install "uvicorn[standard]"
@@ -56,12 +54,10 @@
 10. Run the app:
 
    ```bash
-   $ uvicorn app:app --reload
+   uvicorn app:app --reload
    ```
 
 # AudioCraft
-
-# My Project with AudioCraft
 
 This project utilizes AudioCraft, a PyTorch library for high-quality audio generation using deep learning models.
 
@@ -105,13 +101,13 @@ sudo apt-get install ffmpeg
 
 #### Anaconda or Miniconda:
 
-```bash
-conda install "ffmpeg<5" -c conda-forge
-```
+   ```bash
+   conda install "ffmpeg<5" -c conda-forge
+   ```
 
 ### Install Transformers (Required for MusicGen)
 
-   ```console
+   ```shell
    pip install torchaudio transformers
    ```
    
